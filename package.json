@@ -1,0 +1,19 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "GA on Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keshav-93/Playwright-CI-CD.git"
+  },
+  "author": "Keshav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keshav-93/Playwright-CI-CD/issues"
+  },
+  "homepage": "https://github.com/Keshav-93/Playwright-CI-CD#readme"
+}
