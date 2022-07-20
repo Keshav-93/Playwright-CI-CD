@@ -19,9 +19,9 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run your tests
         run: npm test
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: Playwrighht-Report
-          path: /Playwright-CI-CD/pw/Playwrighht-Report
+      # - name: Upload test results
+      #   if: always()
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: Playwrighht-Report
+      #     path: /Playwright-CI-CD/pw/Playwrighht-Report
