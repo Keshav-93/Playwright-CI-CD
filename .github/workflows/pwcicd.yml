@@ -3,7 +3,7 @@ name: Playwright CI/CD with GA
 on:
   push:
     branches:
-    - *
+    - '**'
 jobs:
   Playwright:
     runs-on: ubuntu-latest
